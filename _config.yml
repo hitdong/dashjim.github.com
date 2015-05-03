@@ -2,5 +2,6 @@ markdown: rdiscount
 permalink: /:year/:month/:title/
 url: http://hitdong.github.io
 author: Dong
+author.avatar: false
 pygments: true
 paginate: 24
