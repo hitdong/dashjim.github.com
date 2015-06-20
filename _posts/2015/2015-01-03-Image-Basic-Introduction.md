@@ -11,6 +11,9 @@ tags:
 ### **Focal Length**
 ### **Aperture**
 ## **Image Sensor**
+## **Electronic shutter**
+### **Rolling Shutter**
+### **Global Shutter**
 ## **Black Level**
 ## **Auto Exposure(AE)**
 ## **Auto White Balance(AWB)**
