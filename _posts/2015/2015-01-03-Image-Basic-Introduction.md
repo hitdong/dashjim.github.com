@@ -88,7 +88,9 @@ Influenced by :
 **Color temperature of a light source**
 **Color temperature** is a way of measuring the quality of a light source. It is based on the ratio of the amount of blue light to the amount of red light, and the green light is ignored. The unit for measuring this ratio is in degree Kelvin (K)
 
+Human brain can quickly adjust to different color temperature. Digital cameras usually have built-in sensor to measure the current color temperature and use an alogrithm to process the image so that the final result may be close to what we see(with our eyes,of course). But the algorithm(s) being used may not be accurate enough to make every situtation correct.  Under some difficult situations when the in-camera algorithm is not able to set eh color temperature correctly or when some crative and special effects are needed, we can instruct the camera to use a particular color temperature to fulfill our need. The adjustment that makes sure the white color we view directly will also appeare white in the image is refered to as **white balance**  
 ## **Dynamic Range**##
+Dynamic range in photography describes the ratio between the max and min measurable light intensities(white and black, respectively).  Incident and reflected light can contribute to the dynamic range of scene  
 ## **Flicker Detection** ##
 ## **Image Histogram**
 ## **Sharpness**
