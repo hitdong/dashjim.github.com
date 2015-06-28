@@ -95,6 +95,7 @@ Dynamic range in photography describes the ratio between the max and min measura
 In a nutshell, dynamic range enhancement is used to make both light and dart parts of a scene clearly. Under intense light source, light spot the photograph from the camera maybe overexposed to be white, and dark spot maybe underexposed to be black. In the dynamic range enhancement algorthm, we can use some evaluation matrixs to make the lightness on the dark spot and on the light spot more balance.
 
 **High-dynamic-range imaging (HDRI or HDR)** is a set of techniques used in imaging and photography to reproduce a greater dynamic range of luminosity than is possible with standard digital imaging or photographic techniques. The aim is to present the human eye with a similar range of luminance as that which, through the visual system, is familiar in everyday life. The human eye, through adaptation of the iris (and other methods) adjusts constantly to the broad dynamic changes ubiquitous in our environment. The brain continuously interprets this information so that most of us can see in a wide range of light conditions. Most cameras, on the other hand, cannot.
+
 **Tone Mapping** is a technique used in image processing and computer graphics to map one set of colors to another to approximate the appearance of high dynamic range images in a medium that has a more limited dynamic range. Print-outs, CRT or LCD monitors, and projectors all have a limited dynamic range that is inadequate to reproduce the full range of light intensities present in natural scenes. Tone mapping addresses the problem of strong contrast reduction from the scene radiance to the displayable range while preserving the image details and color appearance important to appreciate the original scene content.
 ## **Flicker Detection** ##
 
@@ -113,14 +114,14 @@ Describes how quickly image information transitions at an edge, so high acutance
 Image stabilization (IS) is a family of techniques used to reduce blurring associated with the motion of a camera or other imaging device during exposure. Gusts of wind tearing at a surveillance camera can make it shake or vibrate enough to make images come out as useless blur. A heavy truck, or a train, passing close by can have similar consequences.
 Image stabilization techniques are used in consumer products such as digital still cameras and video cameras. Today, there are two methods to tackle the problem – optical image stabilization and electronic image stabilization.
 
-###**Optical Image Stabilization**###
+ ###**Optical Image Stabilization**###
 An optical image stabilization system usually relies on gyroscopes or accelerometers to detect and measure camera vibrations. The readings, typically limited to pan and tilt, are then relayed to actuators that move a lens in the optical chain to compensate for the camera motion. In some designs, the favored solution is instead to move the image sensor, for example using small linear motors.
 
 Either method is able to compensate the shaking of camera and lens, so that light can strike the image sensor in the same fashion as if the camera was not vibrating. Optical image stabilization is particularly useful when using long focal lengths and works well also in low light conditions.
 
 The main disadvantage of an optical solution is the price.
 
-###**Electronic Image Stabilization**###
+ ###**Electronic Image Stabilization**###
 
 Electronic image stabilization, also known as digital image stabilization, has primarily been developed for video cameras.
 
