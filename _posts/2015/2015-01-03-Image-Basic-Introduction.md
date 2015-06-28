@@ -90,10 +90,41 @@ Influenced by :
 
 Human brain can quickly adjust to different color temperature. Digital cameras usually have built-in sensor to measure the current color temperature and use an alogrithm to process the image so that the final result may be close to what we see(with our eyes,of course). But the algorithm(s) being used may not be accurate enough to make every situtation correct.  Under some difficult situations when the in-camera algorithm is not able to set eh color temperature correctly or when some crative and special effects are needed, we can instruct the camera to use a particular color temperature to fulfill our need. The adjustment that makes sure the white color we view directly will also appeare white in the image is refered to as **white balance**  
 ## **Dynamic Range**##
-Dynamic range in photography describes the ratio between the max and min measurable light intensities(white and black, respectively).  Incident and reflected light can contribute to the dynamic range of scene  
+Dynamic range in photography describes the ratio between the max and min measurable light intensities(white and black, respectively).  Incident and reflected light can contribute to the dynamic range of scene.
+
+In a nutshell, dynamic range enhancement is used to make both light and dart parts of a scene clearly. Under intense light source, light spot the photograph from the camera maybe overexposed to be white, and dark spot maybe underexposed to be black. In the dynamic range enhancement algorthm, we can use some evaluation matrixs to make the lightness on the dark spot and on the light spot more balance.
+
+**High-dynamic-range imaging (HDRI or HDR)** is a set of techniques used in imaging and photography to reproduce a greater dynamic range of luminosity than is possible with standard digital imaging or photographic techniques. The aim is to present the human eye with a similar range of luminance as that which, through the visual system, is familiar in everyday life. The human eye, through adaptation of the iris (and other methods) adjusts constantly to the broad dynamic changes ubiquitous in our environment. The brain continuously interprets this information so that most of us can see in a wide range of light conditions. Most cameras, on the other hand, cannot.
+**Tone Mapping** is a technique used in image processing and computer graphics to map one set of colors to another to approximate the appearance of high dynamic range images in a medium that has a more limited dynamic range. Print-outs, CRT or LCD monitors, and projectors all have a limited dynamic range that is inadequate to reproduce the full range of light intensities present in natural scenes. Tone mapping addresses the problem of strong contrast reduction from the scene radiance to the displayable range while preserving the image details and color appearance important to appreciate the original scene content.
 ## **Flicker Detection** ##
+
 ## **Image Histogram**
+An **image histogram** is a type of histogram that acts as a graphical representation of the tonal distribution in a digital image. It plots the number of pixels for each tonal value. By looking at the histogram for a specific image a viewer will be able to judge the entire tonal distribution at a glance. Image histograms are present on many modern digital cameras. Photographers can use them as an aid to show the distribution of tones captured, and whether image detail has been lost to blown-out highlights or blacked-out shadows
 ## **Sharpness**
+Sharpness describes the clarity of detail in a photo, can be a valuable tool to emphasizing texture. Two fundamental factors contribute to the perceived sharpness of an image:
+
+ + Resolution
+Describes the camera’s ability to distinguish between closely spaced elements of detail, such as the two sets of lines shown below: Resolution is limited by your digital sensor.
+
+ + Acutance
+Describes how quickly image information transitions at an edge, so high acutance results in sharp transition and detail with clearly defined borders.Acutance depends on both the quality of your lens and the type of post-processing. It’s the only aspect of sharpness which is still under your control after the shot has been taken.
+
 ## **Image stabilization**
+Image stabilization (IS) is a family of techniques used to reduce blurring associated with the motion of a camera or other imaging device during exposure. Gusts of wind tearing at a surveillance camera can make it shake or vibrate enough to make images come out as useless blur. A heavy truck, or a train, passing close by can have similar consequences.
+Image stabilization techniques are used in consumer products such as digital still cameras and video cameras. Today, there are two methods to tackle the problem – optical image stabilization and electronic image stabilization.
+
+###**Optical Image Stabilization**###
+An optical image stabilization system usually relies on gyroscopes or accelerometers to detect and measure camera vibrations. The readings, typically limited to pan and tilt, are then relayed to actuators that move a lens in the optical chain to compensate for the camera motion. In some designs, the favored solution is instead to move the image sensor, for example using small linear motors.
+
+Either method is able to compensate the shaking of camera and lens, so that light can strike the image sensor in the same fashion as if the camera was not vibrating. Optical image stabilization is particularly useful when using long focal lengths and works well also in low light conditions.
+
+The main disadvantage of an optical solution is the price.
+
+###**Electronic Image Stabilization**###
+
+Electronic image stabilization, also known as digital image stabilization, has primarily been developed for video cameras.
+
+Electronic image stabilization relies on different algorithms for modeling camera motion, which then are used to correct the images. Pixels outside the border of the visible image are used as a buffer for motion and the information on these pixels can then be used to shift the electronic image from frame to frame, enough to counterbalance the motion and create a stream of stable video
+
 ## **References**
  9.Kingslake 1989,[page needed]
