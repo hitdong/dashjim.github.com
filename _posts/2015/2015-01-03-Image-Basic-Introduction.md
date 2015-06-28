@@ -14,6 +14,7 @@ The two fundamental parameters of an optical lens are the focal length and the m
 The lens' focal length determines the magnification of the image projected onto the image plane. For a given photographic system the focal length determines the angle of view, short focal lengths giving a wider field of view than longer focal length lenses.Focal lengths are usually specified in millimetres (mm).
 
 Here is example how focal length affects photograph composition: adjusting the camera's distance from the main subject while changing focal length, the main subject can remain the same size, while the other at a different distance changes size.
+
 ![](/media/pic2015/Focal_length.jpg)
 
 There are two kinds of camera lens according to their focal length: 
@@ -31,6 +32,7 @@ We use F value to describe the aperture.
 
 
 The lower the f-number, the higher light intensity at the focal plane. Larger aperture (smaller f-numbers) provide a much shallower depth of fiedl than smaller apertures, other conditions being equal.
+
 ![](/media/pic2015/Apertures.jpg)
 
 ## **Image Sensor**
@@ -59,7 +61,7 @@ The "Rolling Shutter" can be either mechanical or electronic. The advantage of t
 
 ### **Why is Global Shuttering Better**###
  + Image is integrated without discontinuities in time
- + Image Quality is superior with less motion blur � Measurements are more accurate
+ + Image Quality is superior with less motion blur Measurements are more accurate
  + No mechanical moving parts
  + Strobes are not required to stop the motion blur
  + Special Recording modes such as Slip Sync or Burst ROC are only possible with Electronic Shuttering (Global).
@@ -80,6 +82,7 @@ Determined by :
   Controls the sensitivity of your camera’s sensor to give amount of light.
 
 Exposure is like collecting rain in a bucket. We cannot control the rate of the rainfall, and there are 3 factors we can determine: size of the bucket, duration we leave it in the rain, and the quantity of rain we want to collect.
+
 ![](/media/pic2015/AE.png)
 
 Collect too much is just like “overexposed”, collect too little is just “underexposed”. In photography, the exposure settings of aperture, shutter speed and ISO speed are analogous to the size, time and quantity discussed above.
@@ -125,14 +128,14 @@ Describes how quickly image information transitions at an edge, so high acutance
 Image stabilization (IS) is a family of techniques used to reduce blurring associated with the motion of a camera or other imaging device during exposure. Gusts of wind tearing at a surveillance camera can make it shake or vibrate enough to make images come out as useless blur. A heavy truck, or a train, passing close by can have similar consequences.
 Image stabilization techniques are used in consumer products such as digital still cameras and video cameras. Today, there are two methods to tackle the problem – optical image stabilization and electronic image stabilization.
 
- ###**Optical Image Stabilization**###
+###**Optical Image Stabilization**###
 An optical image stabilization system usually relies on gyroscopes or accelerometers to detect and measure camera vibrations. The readings, typically limited to pan and tilt, are then relayed to actuators that move a lens in the optical chain to compensate for the camera motion. In some designs, the favored solution is instead to move the image sensor, for example using small linear motors.
 
 Either method is able to compensate the shaking of camera and lens, so that light can strike the image sensor in the same fashion as if the camera was not vibrating. Optical image stabilization is particularly useful when using long focal lengths and works well also in low light conditions.
 
 The main disadvantage of an optical solution is the price.
 
- ###**Electronic Image Stabilization**###
+###**Electronic Image Stabilization**###
 
 Electronic image stabilization, also known as digital image stabilization, has primarily been developed for video cameras.
 
