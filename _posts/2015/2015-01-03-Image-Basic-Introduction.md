@@ -14,6 +14,7 @@ The two fundamental parameters of an optical lens are the focal length and the m
 The lens' focal length determines the magnification of the image projected onto the image plane. For a given photographic system the focal length determines the angle of view, short focal lengths giving a wider field of view than longer focal length lenses.Focal lengths are usually specified in millimetres (mm).
 
 Here is example how focal length affects photograph composition: adjusting the camera's distance from the main subject while changing focal length, the main subject can remain the same size, while the other at a different distance changes size.
+![](/media/pic2015/Focal_length.jpg)
 
 There are two kinds of camera lens according to their focal length: 
  + Zoom lenses
@@ -30,6 +31,8 @@ We use F value to describe the aperture.
 
 
 The lower the f-number, the higher light intensity at the focal plane. Larger aperture (smaller f-numbers) provide a much shallower depth of fiedl than smaller apertures, other conditions being equal.
+![](/media/pic2015/Apertures.jpg)
+
 ## **Image Sensor**
 An image sensor is a device that converts an optical image into an electronic signal. It is used mostly in digital cameras, camera modules and other imaging devices. most currently used are digital charge-coupled device (CCD) or complementary metal–oxide–semiconductor (CMOS) active pixel sensors.
 
@@ -77,10 +80,13 @@ Determined by :
   Controls the sensitivity of your camera’s sensor to give amount of light.
 
 Exposure is like collecting rain in a bucket. We cannot control the rate of the rainfall, and there are 3 factors we can determine: size of the bucket, duration we leave it in the rain, and the quantity of rain we want to collect.
+![](/media/pic2015/AE.png)
 
 Collect too much is just like “overexposed”, collect too little is just “underexposed”. In photography, the exposure settings of aperture, shutter speed and ISO speed are analogous to the size, time and quantity discussed above.
 
 Each of the 3 factors, which determines exposure, controls exposure differently, and each setting also influences other image properties, just like in the chart below, aperture affects depth of field, shutter speed affects motion blur and ISO speed affects image noise.
+
+![](/media/pic2015/exposure.png)
 
 ## **Auto White Balance(AWB)**##
 **White Balance(WB)** is the process of removing unrealistic color casts, so that objects will preserve natural color under different light source. 
@@ -89,10 +95,15 @@ Influenced by :
 **Color temperature** is a way of measuring the quality of a light source. It is based on the ratio of the amount of blue light to the amount of red light, and the green light is ignored. The unit for measuring this ratio is in degree Kelvin (K)
 
 Human brain can quickly adjust to different color temperature. Digital cameras usually have built-in sensor to measure the current color temperature and use an alogrithm to process the image so that the final result may be close to what we see(with our eyes,of course). But the algorithm(s) being used may not be accurate enough to make every situtation correct.  Under some difficult situations when the in-camera algorithm is not able to set eh color temperature correctly or when some crative and special effects are needed, we can instruct the camera to use a particular color temperature to fulfill our need. The adjustment that makes sure the white color we view directly will also appeare white in the image is refered to as **white balance**  
+
+![](/media/pic2015/color_balance.jpg)
+
 ## **Dynamic Range**##
 Dynamic range in photography describes the ratio between the max and min measurable light intensities(white and black, respectively).  Incident and reflected light can contribute to the dynamic range of scene.
 
 In a nutshell, dynamic range enhancement is used to make both light and dart parts of a scene clearly. Under intense light source, light spot the photograph from the camera maybe overexposed to be white, and dark spot maybe underexposed to be black. In the dynamic range enhancement algorthm, we can use some evaluation matrixs to make the lightness on the dark spot and on the light spot more balance.
+
+![](/media/pic2015/dynamic_change.jpg)
 
 **High-dynamic-range imaging (HDRI or HDR)** is a set of techniques used in imaging and photography to reproduce a greater dynamic range of luminosity than is possible with standard digital imaging or photographic techniques. The aim is to present the human eye with a similar range of luminance as that which, through the visual system, is familiar in everyday life. The human eye, through adaptation of the iris (and other methods) adjusts constantly to the broad dynamic changes ubiquitous in our environment. The brain continuously interprets this information so that most of us can see in a wide range of light conditions. Most cameras, on the other hand, cannot.
 
