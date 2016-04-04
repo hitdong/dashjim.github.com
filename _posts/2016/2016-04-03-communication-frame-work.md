@@ -1,6 +1,6 @@
 ---
 title: 沟通知识体系
-layout: page
+layout: post
 ---
 
 ## **引言**
