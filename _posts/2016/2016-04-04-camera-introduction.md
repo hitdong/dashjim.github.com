@@ -1,10 +1,14 @@
 ---
 layout: post
-title: Get things done
+title: 监控摄像机的介绍
 categories:
-- time management
+- video security
 tags:
-- GTD, Next Action
+- Camera
 ---
-## **key objectives**
-Get things done(GTD) was created by David Allen. The two key objectives of GTD: 1) Get things out of your head and capture all the things need to done into a logic system; 2) work out a plan for 'next action'.   
+## **引言**  
+## **监控摄像机的基本架构**
+##监控摄像机的分类##
+##监控摄像机的参数介绍##
+##监控摄像机的功能介绍##
+   
