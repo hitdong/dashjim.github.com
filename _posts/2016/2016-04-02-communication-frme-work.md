@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 沟通知识体系
+title: 表达和倾听知识体系
 categories:
 - 沟通
 tags:
