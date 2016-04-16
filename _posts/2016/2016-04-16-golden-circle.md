@@ -2,10 +2,11 @@
 layout: post
 title: Golden Circle: How great leaders inspire action
 categories:
-- Communication 
+- Communication
 tags:
-- Golden circle, why-how-what, TED, leader 
+- Golden circle, why-how-what, TED, leader
 ---
+
 ## Introduction 
 I watched TED: Simon Sinek [How great leaders inspire action](http://my.tv.sohu.com/pl/5495164/57708471.shtml) over weekend. The key idea is called golden circle as below, which tell us to communicate from inside out: why, how and what. This little idea explains why some organizations and some leaders are able to inspire where others aren't.  
 
