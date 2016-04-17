@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Golden Circle: How great leaders inspire action
+title: Golden Circle-How great leaders inspire action
 categories:
 - Communication
 tags:
