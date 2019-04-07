@@ -5,3 +5,4 @@ author: Dong
 author.avatar: false
 pygments: true
 paginate: 24
+markdown: maruku
