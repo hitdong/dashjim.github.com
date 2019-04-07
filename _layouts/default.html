@@ -10,7 +10,7 @@
     <link href="/feed/" rel="alternate" title="{{ site.author }}" type="application/atom+xml" />
     <!-- support the MathJax if necessary -->
     {% if page.use_math %}
-      {% include mathjax_support %}
+      {% include head.html %}
     {% endif %}
 <LINK href="favicon.ico" type="image/x-icon" rel=icon>
 <LINK href="favicon.ico" type="image/x-icon" rel="shortcut icon">
@@ -31,12 +31,12 @@
     <!--script type="text/javascript" src="/media/js/jquery-1.7.1.min.js"></script-->
     <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.2.min.js"></script>
     <script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    tex2jax: {
-      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-      inlineMath: [['$','$']]
-    }
-  });
+  	MathJax.Hub.Config({
+    	tex2jax: {
+      	skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+      	inlineMath: [['$','$']]
+    	}
+  	});
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>	
   </head>
