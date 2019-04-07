@@ -36,11 +36,11 @@ $Y=(y^{(1)}, y^{(2)},...,y^{(m)})$: 对应表示所有训练数据集的输出�
 **为什么需要代价函数**
 为了训练逻辑回归模型的参数$w$和$b$，我们需要一个代价函数，通过训练代价函数得到参数$w$和$b$，逻辑回归的输出函数
 ![](/media/pic2019/deeplearning_Andrew/lesson1/regression_output.png)
-为了让模型学习调整参数，需要给予一个$m$样本的训练集，在训练集上找到参数$w$和$b$,来得到输出，我们希望训练集的预测值$\hat{y}$接近于实际值$y$, 上标$(i)$表示第$i$个样本
-**损失函数（Loss Function)：**
+为了让模型学习调整参数，需要给予一个$m$样本的训练集，在训练集上找到参数$w$和$b$,来得到输出，我们希望训练集的预测值$\hat{y}$接近于实际值$y$, 上标$(i)$表示第$i$个样本  
+**损失函数（Loss Function)：**  
 损失函数用来衡量预测值和实际值有多接近，损失函数是在单个样本中定义的，它衡量的是算法在单个样本中的表现。
 逻辑回归中用到的损失函数是：$L\left( \hat{y},y \right)=-y\log(\hat{y})-(1-y)\log (1-\hat{y})$
-**代价函数(Cost Function)**
+**代价函数(Cost Function)**  
 算法的代价函数衡量算法在全体训练样本上的表现，是对$m$个样本的损失函数求和然后除以$m$: 
 
 ### 2.4 梯度下降法(Gradient Descent)
@@ -49,4 +49,29 @@ $Y=(y^{(1)}, y^{(2)},...,y^{(m)})$: 对应表示所有训练数据集的输出�
 迭代就是不断重复做如图的公式:
 $:=$表示更新参数,
 $a $ 表示学习率（learning rate），用来控制步长（step），即向下走一步的长度$\frac{dJ(w)}{dw}$ 就是函数$J(w)$对$w$ 求导（derivative），在代码中我们会使用$dw$表示这个结果
+### 2.9 逻辑回归中的梯度下降(Logistic Regression Gradient Descent)
+![](/media/pic2019/deeplearning_Andrew/lesson1/lr_gd.jpg)
+运用链式法则求导
+$\frac{dL(a,y)}{da}=\frac{dL}{da}=-y/a+(1-y)/(1-a)$
 
+$\sigma(z)$是sigmoid函数，$a=\sigma(z)=\frac{1}{1+e^{-z}}$
+$\frac{da}{dz}=\frac{e^{-z}}{(1+e^{-z})^2}=\frac{1 + e^{-z} - 1}{(1+e^{-z})^2}=\frac{1}{1 + e^{-z}}(1 - \frac{1}{1+e^{-z}})=\sigma(z)(1-\sigma(z))=a\cdot(1-a)$
+
+$\frac{dL(a, y)}{dz}=\frac{dL}{dz}=\left(\frac{dL}{da}\right)\cdot\left(\frac{da}{dz}\right)=(-\frac{y}{a}+\frac{1-y}{1-a})\cdot a(1-a) = a - y$
+现在计算$w$和$b$变化对代价函数$L$的影响
+$d{w}_{1}=\frac{1}{m}\sum\limits_{i}^{m}{x_{1}^{(i)}}({{a}^{i}} - {{y}^{(i)}})$
+$d{w}_{2}=\frac{1}{m}\sum\limits_{i}^{m}{x_{2}^{(i)}}({{a}^{i}} - {{y}^{(i)}})$
+$db=\frac{1}{m}\sum\limits_{i}^{m}{{a}^{i}} - {{y}^{(i)}}$
+视频中，
+$d{{w}_{1}}$ 表示$\frac{\partial L}{\partial {{w}_{1}}}={{x}_{1}}\cdot dz$， 
+$d{{w}_{\text{2}}}$ 表示$\frac{\partial L}{\partial {{w}_{2}}}={{x}_{2}}\cdot dz$，
+$db=dz$。
+因此，关于单个样本的梯度下降算法，你所需要做的就是如下的事情：
+使用公式$dz=(a-y)$计算$dz$，
+使用$d{{w}_{1}}={{x}_{1}}\cdot dz$ 计算$d{{w}_{1}}$， $d{{w}_{2}}={{x}_{2}}\cdot dz$计算$d{{w}_{2}}$，
+$db=dz$ 来计算$db$，
+然后:
+更新${{w}_{1}}={{w}_{1}}-a d{{w}_{1}}$，
+更新${{w}_{2}}={{w}_{2}}-a d{{w}_{2}}$，
+更新$b=b-\alpha db$。
+这就是关于单个样本实例的梯度下降算法中参数更新一次的步骤
