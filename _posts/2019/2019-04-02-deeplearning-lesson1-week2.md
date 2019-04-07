@@ -52,7 +52,7 @@ $a $ 表示学习率（learning rate），用来控制步长（step），即向�
 ### 2.9 逻辑回归中的梯度下降(Logistic Regression Gradient Descent)
 ![](/media/pic2019/deeplearning_Andrew/lesson1/lr_gd.jpg)
 运用链式法则求导
-$\frac{dL(a,y)}{da}=\frac{dL}{da}=-y/a+(1-y)/(1-a)$
+$$\frac{dL(a,y)}{da}=\frac{dL}{da}=-y/a+(1-y)/(1-a)$$
 
 $\sigma(z)$是sigmoid函数，$a=\sigma(z)=\frac{1}{1+e^{-z}}$
 $\frac{da}{dz}=\frac{e^{-z}}{(1+e^{-z})^2}=\frac{1 + e^{-z} - 1}{(1+e^{-z})^2}=\frac{1}{1 + e^{-z}}(1 - \frac{1}{1+e^{-z}})=\sigma(z)(1-\sigma(z))=a\cdot(1-a)$
