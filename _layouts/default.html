@@ -8,7 +8,9 @@
 	<!-- Jim disable
 	script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?autoload=true&skin=Desert"></script-->
     <link href="/feed/" rel="alternate" title="{{ site.author }}" type="application/atom+xml" />
-    
+    {% if page.use_math %}
+      {% include mathjax_support %}
+    {% endif %}
 <LINK href="favicon.ico" type="image/x-icon" rel=icon>
 <LINK href="favicon.ico" type="image/x-icon" rel="shortcut icon">
 	
