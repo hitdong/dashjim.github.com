@@ -5,6 +5,7 @@ categories:
 - Deep Learning, 
 tags:
 - Deep Learning, Neural Network
+use_math: true
 ---
 [TOC]
 ### 2.1 二分类(Binary Classification) 
