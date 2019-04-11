@@ -1,5 +1,6 @@
 #markdown: rdiscount
 markdown: kramdown
+toc_levels: 1..2
 permalink: /:year/:month/:title/
 url: http://hitdong.github.io
 author: Dong
