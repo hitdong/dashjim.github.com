@@ -17,7 +17,7 @@ use_math: true
 
 
 
-![](media/pic2019/master_deeplearning_cv/confuse_matrix.png)
+![](/media/pic2019/master_deeplearning_cv/confuse_matrix.png)
 
 | 符号                   | 含义                                       |
 | ---------------------- | ------------------------------------------ |
