@@ -35,7 +35,7 @@ $$Error = \frac{1}{2}\left( target - out\right)^2 + \frac{\lambda}{2}\left|{w}_{
 
 #### 1.2.3 Early Stopping
 
-![1555426494097](..\..\media\pic2019\master_deeplearning_cv\1555426494097.png)
+![](../../media/pic2019/master_deeplearning_cv/1555426494097.png)
 
 #### 1.2.4 Drop out
 
