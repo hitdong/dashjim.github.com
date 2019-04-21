@@ -17,7 +17,7 @@ use_math: true
 
 
 
-![](../../media/pic2019/master_deeplearning_cv/confuse_matrix.png)
+![](media/pic2019/master_deeplearning_cv/confuse_matrix.png)
 
 | 符号                   | 含义                                       |
 | ---------------------- | ------------------------------------------ |
@@ -32,7 +32,7 @@ use_math: true
 
 Precision指标在中文里可以称为查准率或者是精确率，Recall指标在中卫里常被称为查全率或者是召回率，查准率 P和查全率 R分别定义为：
 
-![](../../media/pic2019/master_deeplearning_cv/85-367942820.png)
+![](/media/pic2019/master_deeplearning_cv/85-367942820.png)
 
 查准率P和查全率R的具体含义如下：
 
@@ -41,7 +41,7 @@ Precision指标在中文里可以称为查准率或者是精确率，Recall指�
 
 这里想强调一点，precision和accuracy（正确率）不一样的，accuracy针对所有样本，precision针对部分样本，即正确的预测/总的正反例：
 
-![](../../media/pic2019/master_deeplearning_cv/82-641098274.png)
+![](/media/pic2019/master_deeplearning_cv/82-641098274.png)
 
 ### 2. 速度 fps
 
@@ -53,16 +53,12 @@ IOU（Intersection over Union），中文翻译为交并比。
 
 这里是一个实际例子：下图绿色框是真实感兴趣区域，红色框是预测区域，这种情况下交集确实是最大的，但是红色框并不能准确预测物体位置。因为预测区域总是试图覆盖目标物体而不是正好预测物体位置。这时如果我们能除以一个并集的大小，就可以规避这种问题。这就是IOU要解决的问题了。
 
-![](../../media/pic2019/master_deeplearning_cv/car.png)
+![](/media/pic2019/master_deeplearning_cv/car.png)
 
 下图表示了IOU的具体意义，即：预测框与标注框的交集与并集之比，数值越大表示该检测器的性能越好。
 
-![](../../media/pic2019/master_deeplearning_cv/iou.png)
-
-
-
-
+![](/media/pic2019/master_deeplearning_cv/iou.png)
 
 使用IOU评价指标后，上面提到的问题一下子解决了：我们控制并集不要让并集太大，对准确预测是有益的，这就有效抑制了“一味地追求交集最大”的情况的发生。下图的2,3小图就是目标检测效果比较好的情况。
 
-![](../../media/pic2019/master_deeplearning_cv/iou_example.png)
+![](/media/pic2019/master_deeplearning_cv/iou_example.png)
