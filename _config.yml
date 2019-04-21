@@ -5,5 +5,7 @@ permalink: /:year/:month/:title/
 url: http://hitdong.github.io
 author: Dong
 author.avatar: false
-rouge:true
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
 paginate: 24
