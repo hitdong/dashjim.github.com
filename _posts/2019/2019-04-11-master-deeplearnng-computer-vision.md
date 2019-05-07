@@ -37,10 +37,14 @@ $$Error = \frac{1}{2}\left( target - out\right)^2 + \frac{\lambda}{2}\left|{w}_{
 
 ![1555426494097](..\..\media\pic2019\master_deeplearning_cv\1555426494097.png)
 
-#### 1.2.4 Drop out
+#### 1.2.4 Dropout
 
-#### 1.2.5 Dataset Augmentation 
+Dropout 用于降低神经元之间的依赖性，在Dropout中，设定参数‘p'表示了保留节点的概率，（1-p）是哪些被丢掉的，dropout几乎使得训练的收敛时间翻倍
 
+![1555509758391](../../media/pic2019/master_deeplearning_cv/1555509758391.png)
 
+#### 1.2.5 Data Augmentation 
+
+数据增强只是简单地将输入数据集的数据做简单的变换以便获得更多的数据量去做训练
 
 
